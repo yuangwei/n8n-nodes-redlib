@@ -1,10 +1,13 @@
 {
 	"name": "n8n-nodes-redlib",
 	"version": "0.1.1",
-	"description": "n8n nodes for redlib.",
+	"description": "n8n node for fetching Reddit data through Redlib without OAuth authentication",
 	"license": "MIT",
 	"keywords": [
-		"n8n-community-node-package"
+		"n8n-community-node-package",
+		"reddit",
+		"redlib",
+		"scraper"
 	],
 	"author": {
 		"name": "yuangwei",
@@ -30,12 +33,10 @@
 		"n8nNodesApiVersion": 1,
 		"strict": true,
 		"credentials": [
-			"dist/credentials/GithubIssuesApi.credentials.js",
-			"dist/credentials/GithubIssuesOAuth2Api.credentials.js"
+			"dist/credentials/RedlibApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/GithubIssues/GithubIssues.node.js",
-			"dist/nodes/Example/Example.node.js"
+			"dist/nodes/Redlib/Redlib.node.js"
 		]
 	},
 	"devDependencies": {

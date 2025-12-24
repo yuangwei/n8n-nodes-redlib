@@ -1,0 +1,18 @@
+{
+ "node": "n8n-nodes-redlib.redlib",
+ "nodeVersion": "1.0",
+ "codexVersion": "1.0",
+ "categories": ["Miscellaneous", "Data"],
+ "resources": {
+  "credentialDocumentation": [
+  {
+   "url": "https://github.com/redlib-org/redlib"
+  }
+  ],
+  "primaryDocumentation": [
+  {
+   "url": "https://github.com/redlib-org/redlib"
+  }
+  ]
+ }
+}
