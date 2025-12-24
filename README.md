@@ -139,6 +139,12 @@ The node returns data in the same format as the Reddit API:
 }
 ```
 
+## Support
+
+If you find this node useful, please consider supporting its development:
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'Q5Q612M60I');kofiwidget2.draw();</script>
+
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
