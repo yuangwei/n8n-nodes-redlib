@@ -2,7 +2,7 @@ import type { INodeProperties } from 'n8n-workflow';
 
 const showOnlyForSubredditSearch = { operation: ['search'], resource: ['subreddit'] };
 
-export const subredditSearchDescription: INodeProperties[] = [
+export const subredditSearchProperties: INodeProperties[] = [
   {
     displayName: 'Keyword',
     name: 'keyword',

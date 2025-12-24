@@ -2,7 +2,7 @@ import type { INodeProperties } from 'n8n-workflow';
 
 const showOnlyForPostCommentGetAll = { operation: ['getAll'], resource: ['postComment'] };
 
-export const postCommentGetManyDescription: INodeProperties[] = [
+export const postCommentGetAllProperties: INodeProperties[] = [
  {
   displayName: 'Subreddit',
   name: 'subreddit',

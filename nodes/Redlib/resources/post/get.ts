@@ -2,7 +2,7 @@ import type { INodeProperties } from 'n8n-workflow';
 
 const showOnlyForPostGet = { operation: ['get'], resource: ['post'] };
 
-export const postGetDescription: INodeProperties[] = [
+export const postGetProperties: INodeProperties[] = [
  {
   displayName: 'Subreddit',
   name: 'subreddit',

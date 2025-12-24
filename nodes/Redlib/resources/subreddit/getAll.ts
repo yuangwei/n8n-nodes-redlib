@@ -2,7 +2,7 @@ import type { INodeProperties } from 'n8n-workflow';
 
 const showOnlyForSubredditGetAll = { operation: ['getAll'], resource: ['subreddit'] };
 
-export const subredditGetManyDescription: INodeProperties[] = [
+export const subredditGetAllProperties: INodeProperties[] = [
   {
     displayName: 'Subreddits',
     name: 'subreddits',

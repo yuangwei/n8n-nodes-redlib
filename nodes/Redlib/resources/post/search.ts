@@ -2,7 +2,7 @@ import type { INodeProperties } from 'n8n-workflow';
 
 const showOnlyForPostSearch = { operation: ['search'], resource: ['post'] };
 
-export const postSearchDescription: INodeProperties[] = [
+export const postSearchProperties: INodeProperties[] = [
  {
   displayName: 'Subreddit',
   name: 'subreddit',
