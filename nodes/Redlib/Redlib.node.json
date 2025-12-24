@@ -6,12 +6,12 @@
  "resources": {
   "credentialDocumentation": [
   {
-   "url": "https://github.com/redlib-org/redlib"
+   "url": "https://github.com/yuangwei/n8n-nodes-redlib"
   }
   ],
   "primaryDocumentation": [
   {
-   "url": "https://github.com/redlib-org/redlib"
+   "url": "https://github.com/yuangwei/n8n-nodes-redlib"
   }
   ]
  }
