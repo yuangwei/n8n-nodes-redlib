@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-redlib",
-	"version": "0.1.1",
+	"version": "1.0.0",
 	"description": "n8n node for fetching Reddit data through Redlib without OAuth authentication",
 	"license": "MIT",
 	"keywords": [
